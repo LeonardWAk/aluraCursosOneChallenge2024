@@ -11,7 +11,7 @@ body{
     color: #555252;
     font-family: "Inter", sans-serif;
     font-style: normal;
-    background-image: url("./encryption-1.jpg");
+    background-image: url("../encryption-1.jpg");
     object-fit: cover;
     background-size: cover;
 }
