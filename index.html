@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EncriptText</title>
+</head>
+<body>
+    <header></header>
+    <main class="main__container">
+        <h1>Encriptador de Texto</h1>
+        <p id="copyMessage" style="display: none">¡Texto copiado!</p>
+        <div class="container">
+            <textarea required pattern="^[a-z\s]*$" type="text" id="inputEL" placeholder="Texto a Encriptar/Desencriptar">
+            </textarea>
+            <p class="container__info">Solo letras minusculas y sin tilde</p>
+            <div class="container__btns">
+                <button id="btnEL">Incriptar</button>
+                <button id="btnEL2">Desencriptar</button> 
+            </div>
+            <div class="codex">
+                <p id="codigoEL"></p>
+            </div>
+            <button id="btn__copy">Copiar</button>
+        </div>
+    </main>
+    <footer>
+        <a href="https://www.aluracursos.com/" target="_blank">Alura Latam ONE</a>
+        <a href="https://github.com/LeonardWAk" target="_blank">GitHub</a>
+        <p>2024 - by LeonardWAk</p>
+    </footer>
+    <script src="/encript.js"></script>
+</body>
+</html>

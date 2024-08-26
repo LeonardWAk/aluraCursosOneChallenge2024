@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    color: #555252;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    background-image: url("/encryption-1.jpg");
+    object-fit: cover;
+    background-size: cover;
+}
+  
+h1{
+    color:rgb(32, 82, 99);
+    font-weight:900;
+    margin-bottom: 1rem;
+    font-size: 3.7rem;
+    letter-spacing: 3px;
+}
+  
+.main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3%;
+    border-radius: 1rem;
+    background-color: #e9ecf8ee;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding-bottom: 0.7rem;
+}
+
+.container label {
+    margin: 0.5rem;
+    text-transform:uppercase;
+    font-size: 1rem;
+}
+
+.container textarea {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border:none;
+    border-radius: 1rem;
+    outline:none;
+    height: 250px;
+    color: #0A3871;
+    font-size: 32px;
+    text-align: left;
+    background-color: #E9ECF8;
+
+}
+
+.container button {
+    background-color: #0A3871;
+    color:white;
+    text-transform:uppercase;
+    font-size:0.9rem;
+    border:none;
+    border-radius: 2rem;
+    cursor:pointer;
+    letter-spacing:2px;
+    padding: 1rem 5.2rem;
+    transition: text-decoration 0.3s, color 1s, font-weight 0.2s ease-out 0.1s;
+}
+
+.container button:hover {
+    background-color: #145eb8;
+    color: #0adbd4;
+}
+
+.container__btns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.container__btns :nth-child(2){
+    background-color: #03bfdc;
+}
+
+.container__btns :nth-child(2):hover{
+    background-color: #048296;
+}
+
+#btn__copy {
+    background-color: #E9ECF8;
+    color: #000;
+    font-weight: 700;
+    box-shadow: -1px 5px 29px 0px rgba(81,81,81,0.75);
+    -webkit-box-shadow: -1px 5px 29px 0px rgba(81,81,81,0.75);
+    -moz-box-shadow: -1px 5px 29px 0px rgba(81,81,81,0.75);
+}
+
+#btn__copy:hover {
+    background-color: #44484a;
+    color: whitesmoke;
+}
+
+#copyMessage {
+    color: #ffffff;
+    background-color: #2dd1a0e5;
+    font-size: 0.9rem;
+    width: 270px;
+    height: 21px;
+    border: #6e9b85 solid 1px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 0.3rem;
+    position: absolute;
+    top: 110px;
+}
+
+.container__info {
+    font-size: 0.9rem;
+    margin: 0.7rem;
+    font-weight: 800;
+    color: #757373;
+}
+
+.codex{
+    background-color:#edc4e5;
+    height:110px;
+    padding:0.7rem;
+    margin-bottom:21px;
+    border-radius:10px;
+    box-shadow: #555252;box-shadow: -2px 0px 30px 11px rgba(168,117,168,0.5);
+    -webkit-box-shadow: -2px 0px 30px 11px rgba(168,117,168,0.5);
+    -moz-box-shadow: -2px 0px 30px 11px rgba(168,117,168,0.5);
+    font-size: 1.3rem;
+    color: #0a6271;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 25vh;
+    gap: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #03bfdc;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+footer a:hover {
+    color: #00ddff;
+}
