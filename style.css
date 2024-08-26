@@ -107,7 +107,7 @@ h1{
     color: whitesmoke;
 }
 
-#copyMessage {
+#message {
     color: #ffffff;
     background-color: #2dd1a0e5;
     font-size: 0.9rem;
@@ -120,6 +120,16 @@ h1{
     position: absolute;
     top: 110px;
 }
+
+#errorMessage {
+    background-color: rgba(228, 28, 28, 0.74);
+    color: white;
+    padding: 0.3rem;
+    position: absolute;
+    top: 110px;
+    border-radius: 5px;
+}
+
 
 .container__info {
     font-size: 0.9rem;

@@ -10,7 +10,8 @@
     <header></header>
     <main class="main__container">
         <h1>Encriptador de Texto</h1>
-        <p id="copyMessage" style="display: none">¡Texto copiado!</p>
+        <p id="message" style="display: none">¡Texto copiado!</p>
+        <p id="errorMessage" style="display: none;">El texto solo debe contener letras minúsculas, sin tildes ni caracteres especiales.</p>
         <div class="container">
             <textarea required pattern="^[a-z\s]*$" type="text" id="inputEL" placeholder="Texto a Encriptar/Desencriptar">
             </textarea>
